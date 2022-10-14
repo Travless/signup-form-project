@@ -10,26 +10,49 @@
 </head>
 <body>
     <div class="container" id="page-container">
-        <div class="container" id="left-panel-container"></div>
+        <div class="container" id="left-panel-container">
+            <img src="/images/ow2-logo.png" id="ow2-logo"/>
+        </div>
         <div class="container" id="right-panel-container">
-            <h1>Earth needs heroes. Are you ready?</h1>
-            <p>Want to help form the future of Overwatch 2? Sign up to join our Beta Testing program! Gain access to in development/early access maps, heroes and more, as well as gaining cool loot in the process.</p>
-            <p>Are you ready to join the Overwatch task force?</p>
-            <div class="container" id="form-container">
-                <form action="">
-                    <h1>Signup now!</h1>
-                    <div class="column" id="first-column">
-                        <label for="first-name">First Name</label>
-                        <input type="text" name="first-name" id="first-name" required />
+            <div class="container" id="top-right-panel-container"></div>
+            <div class="container" id="middle-right-panel-container">
+                <h1>Earth needs heroes. Are you ready?</h1>
+                <p>Want to help form the future of Overwatch 2? Sign up to join our Beta Testing program! Gain access to in development/early access maps, heroes and more, as well as gaining cool loot in the process.</p>
+                <p>Are you ready to join the Overwatch task force?</p>
+                <div class="container" id="form-container">
+                    <form action="">
+                        <h1>Signup now!</h1>
+                        <div class="container" id="text-container">
+                            <div class="column" id="first-column">
+                                <label for="first-name">First Name</label>
+                                <input type="text" name="first-name" id="first-name" required />
+                                <span></span>
+                                <label for="email">E-mail Address</label>
+                                <input type="email" id="email" name="email" required />
+                                <span></span>
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" required>
+                            </div>
+                            <div class="column" id="second-column">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" name="last-name" id="last-name" required />
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" name="phone" id="phone" required />
+                                <label for="conf-pass">Confirm Password</label>
+                                <input type="password" name="conf-pass" id="conf-pass" required />
+                            </div>
+                        </div>
+                        <div class="container" id="submit-container">
+                            <button>Submit</button>
+                        </div>
                         <span></span>
-                        <label for="email">BattleNet E-mail Address</label>
-                        <input type="email" id="email" name="email" required />
-                        <span></span>
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password" required>
-                    </div>
-                </form>
+                        <div class="container" id="already-acct-container">
+                            <p>Already have BattleNet account? <a href="">Log in</a></p>
+                        </div>
+                    </form>
+                </div>
             </div>
+            <div class="container" id="bottom-right-panel-container"></div>
         </div>
     </div>
 </body>
